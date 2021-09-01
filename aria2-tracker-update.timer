@@ -1,0 +1,9 @@
+[Unit]
+Description=Aria2 tracker auto update timer
+
+[Timer]
+Persistent=true
+OnUnitActiveSec=1d
+
+[Install]
+WantedBy=network.target
